@@ -1,0 +1,311 @@
+<html>
+ 
+ <head>
+ <title>relojesporgabs.com</title>
+ 
+ 
+ <script type="text/javascript" src="javascript.js"></script>
+ 
+ 
+ <link type="text/css" href="style.css" rel="stylesheet" media="screen">
+ </head>
+ 
+ 
+ <body>
+
+<div id="div11"><center> <p><h1> 
+
+
+
+<input type="button" value= "ABURRIDO ??!!" 
+onclick ="location.href='juego.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+
+    <input type="button" value= "Mis trabajos practica" 
+onclick ="location.href='act4.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+
+<input type="button" value= "Actividades documentales" 
+onclick ="location.href='gaa.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+
+<input type="button" value= "Otro tipo de proyecto" 
+onclick ="location.href='inicial.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+
+<input type="button" value= "CREADOR" 
+onclick ="location.href='yoo.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+
+<button onclick="window.location.href='https://www.esquire.com/es/moda-hombre/g27250964/comprar-reloj-original-hombre/';">Los relojes</button>  
+
+
+
+
+
+
+
+ </h1></p> </center></div>
+
+
+
+
+
+
+
+
+
+
+
+ <div id="todo" class="todoNo">
+ <div id="menu" class="menuNo">
+ 
+ 
+ <!--Producto del 1 al 9-->
+ <div id="div1" name="DIVS"></div>
+ <div id="div2" name="DIVS"></div>
+ <div id="div3" name="DIVS"></div>
+ <div id="div4" name="DIVS"></div>
+ <div id="div5" name="DIVS"></div>
+ <div id="div6" name="DIVS"></div>
+ <div id="div7" name="DIVS"></div>
+ <div id="div8" name="DIVS"></div>
+ <div id="div9" name="DIVS"></div>
+ 
+ 
+ <!--Botones de compra-->
+ <div id="divbotones">
+ <input type="button" id="botonTotal" value="Calcular total"/>
+ <input type="button" id="botonDatos" value="Datos personales" disabled="disabled"/>
+ <input type="button" id="botonPago" value="Pago" disabled="disabled"/>
+ <input type="button" id="botonConfirmar" value="Confirmar pedido" disabled="disabled"/>
+ </div>
+ 
+ 
+ <!--zona de compra, tablas, formularios, etc.-->
+ <div id="divZonaCompra" class="divZonaCompraNo">
+ 
+ 
+ <!--Carrito de la compra-->
+ <div id="divTotal" class="divsNo">
+ <p><b>Carrito de la compra, si quiere hacer alguna modificacion aun esta a tiempo:</b></p>
+ <table id="tablaTotal"></table>
+ </div>
+ 
+ 
+ <!--Datos personales--> 
+ <div id="divDatos" class="divsNo">
+ <p><b>Introduzca sus datos personales:</b></p>
+ 
+ <div id="divDatosPersonales0">
+ <div id="divDatosPersonales1">
+ <label>Nombre completo:</label><br/>
+ <input type="text" id="nombre" value="" size="26" /><br/>
+ 
+
+ 
+ <label>Fecha de nacimiento:</label><br/>
+ <select id="fechaNacimientoDia">
+ <option value=""> dia </option>
+ </select>
+ <select id="fechaNacimientoMes">
+ <option value="">      mes</option>
+ <option value="1">Enero</option>
+ <option value="2">Febrero</option>
+ <option value="3">Marzo</option>
+ <option value="4">Abril</option>
+ <option value="5">Mayo</option>
+ <option value="6">Junio</option>
+ <option value="7">Julio</option>
+ <option value="8">Agosto</option>
+ <option value="9">Septiembre</option>
+ <option value="10">Octubre</option>
+ <option value="11">Noviembre</option>
+ <option value="12">Diciembre</option>
+ </select> 
+ <select id="fechaNacimientoAnio">
+ <option value="">  año </option>
+ </select><br/>
+ </div>
+ 
+ <div id="divDatosPersonales2">
+ <label>Telefono movil:</label><br/>
+ <input type="text" id="movil" value="" size="8" maxlength="9"/><br/>
+ 
+ <label>Email:</label><br/>
+ <input type="text" id="email1" value="" size="25" /><br/>
+ 
+ <label>Repita el email:</label><br/>
+ <input type="text" id="email2" value="" size="25" /> 
+ </div>
+ </div>
+ 
+ 
+ <div id="divDomicilio">
+ <label>Tipo de via:</label>
+ <select id="tipoDeVia">
+ <option value="Avenida">Avenida</option>
+ <option value="Calle"selected="selected">Calle</option>
+ <option value="Camino">Camino</option>
+ <option value="Carretera">Carretera</option>
+ <option value="Pasaje">Pasaje</option>
+ <option value="Plaza">Plaza</option>
+ <option value="Residencia">Residencia</option>
+ <option value="Ronda">Ronda</option>
+ <option value="Travesia">Travesia</option>
+ <option value="Urbanizacion">Urbanizacion</option>
+ </select>     
+ 
+ <label>Nombre via:</label>
+ <input type="text" id="viaNombre" value="" size="20" /><br/>
+ 
+ <label>Nº/km:</label>
+ <input type="text" id="viaNumero" value="" size="2" />  
+ 
+ <label>Bloque:</label>
+ <input type="text" id="viaBloque" value="" size="2" />         
+ 
+ <label>Escalera:</label>
+ <input type="text" id="viaEscalera" value="" size="2" />  
+ 
+ <label>Piso:</label>
+ <input type="text" id="viaPiso" value="" size="2" /><br/>
+ 
+ 
+ <label>Localidad:</label>
+ <input type="text" id="localidad" value="" size="13"/>  
+ 
+ <label>Codigo Postal:</label>
+ <input type="text" id="codigoPostal" value="" size="5" maxlength="5"/>  
+ 
+ <label>ciudad:</label>
+ <select id="ciudad">
+ <option value="">          ciudad</option>
+ <option value="15">Acapulco</option>
+ <option value="1">Aguascalientes</option>
+ <option value="2">Campeche</option>
+ <option value="3">Cancún</option>
+ <option value="4">Celaya</option>
+ <option value="33">Chetumal</option>
+ <option value="5">Chihuahua</option>
+ <option value="6">Chilpancingo</option>
+ <option value="7">Ciudad del Carmen</option>
+ <option value="8">Ciudad Obregón</option>
+ <option value="9">Ciudad Victoria</option>
+ <option value="10">Coatzacoalcos</option>
+ <option value="11">Colima</option>
+ <option value="39">Cuautla</option>
+ <option value="12">Cuernavaca</option>
+ <option value="51">Cuiliacán</option>
+ <option value="13">Cárdenas</option>
+ <option value="14">Córdoba</option>
+ <option value="16">Durango</option>
+ <option value="99">Ensenada</option>
+ <option value="17">Guadalajara</option>
+ <option value="18">Guanajuato</option>
+ <option value="19">Guaymas</option>
+ <option value="20">Hermosillo</option>
+ <option value="21">Irapuato</option>
+ <option value="22">Juárez</option>
+ <option value="23">La Laguna</option>
+ <option value="26">La Paz</option>
+ <option value="35">La Piedad</option>
+ <option value="24">León</option>
+ <option value="25">Los Cabos</option>
+ <option value="27">Los Mochis</option>
+ <option value="28">Manzanillo</option>
+ <option value="29">Matamoros</option>
+ <option value="52">Mazatlán</option>
+ <option value="30">Mexicali</option>
+ <option value="31">Minatitlán</option>
+ <option value="32">Monclova</option>
+ <option value="34">Monterrey
+</option>
+ <option value="36">Morelia</option>
+ <option value="37">Mérida</option>
+ <option value="38">Nuevo Laredo
+</option>
+ <option value="40">Oaxaca
+</option>
+ <option value="41">Ocotlán</option>
+ <option value="42">Orizaba
+</option>
+ <option value="43">Pachuca</option>
+ <option value="44">Piedras Negras
+</option>
+ <option value="45">Poza Rica
+</option>
+ <option value="46">Puebla-Tlaxcala
+</option>
+ <option value="47">Puerto Vallarta
+</option>
+ <option value="48">Querétaro
+</option>
+ <option value="49">Reynosa
+</option>
+ <option value="50">Ríoverde
+</option>
+ </select>
+ </div> 
+ </div> 
+ 
+ 
+ <!--Datos de pago-->
+ <div id="divPago" class="divsNo">
+ <p><b>Introduzca los datos de la tarjeta de credito/debito donde se cargara el cobro:</b></p>
+ 
+ 
+ <label>Titular de la tarjeta:</label><br/>
+ <input type="text" id="titular" value="" size="26" /><br/>
+ 
+ 
+ <div id="metodosDePago">
+ <label><span  id="alertTipoDeTarjeta">Tipo de tarjeta:</span></label><br/>
+ <label for="visa">
+ <input type="radio" id="visa" name="tarjetas" class="logoTarjetas" value="Visa">
+ <img src="img/pago/visa.gif"></img>
+ </label>
+   
+ <label for="masterCard">
+ <input type="radio" id="masterCard" name="tarjetas" class="logoTarjetas" value="MasterCard">
+ <img src="img/pago/mastercard.gif"></img>
+ </label>
+   
+ <label for="amex">
+ <input type="radio" id="amex" name="tarjetas" class="logoTarjetas" value="American Express">
+ <img src="img/pago/amex.gif"></img>
+ </label>
+   
+ <label for="aurora">
+ <input type="radio" id="aurora" name="tarjetas" class="logoTarjetas" value="Aurora">
+ <img src="img/pago/aurora.gif"></img>
+ </label>
+ 
+ </div>
+ 
+ 
+ <div id="divNumeroTarjeta">
+ <label>Número tarjeta y CVC:</label><br/>
+ <input type="text" id="numeroTarjeta" value="" size="15" maxlength="16" />
+ <input type="text" id="cvcTarjeta" value="" size="2" maxlength="3" /><br/>
+ 
+ 
+ <select id="mesTarjeta">
+ <option value="">  mes </option>
+ </select>
+ 
+ <select id="anioTarjeta">
+ <option value="">  año </option>
+ </select>
+ </div>
+ </div> 
+ </div>
+ </div> 
+ </div>
+ </body>
+</html>
