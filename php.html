@@ -1,0 +1,92 @@
+<html>
+<body style="background-color:#00aeff77;">
+    <input type="button" value= Regresar" 
+    onclick ="location.href='index.html'"
+    onmouseover="this.style.borderColor='black';" 
+    onmouseout="this.style.borderColor='silver';" />
+
+<?php 
+include 'principal.php';
+?>
+<center><br>
+<h1>Datos personales</h1>
+</center><br>
+<div class="container">
+<div class="col-auto bg-light p-3">
+<form class="row gx-4" action="conexion.php" method ="post">
+<div class="mb-3">
+
+  <div class="row g-3">
+
+       <div class="col-md-20">
+    <div class="form-floating mb-3">
+  <input type="text" id="fname" onblur="upperCase()" class="form-control" name="CURP" minlength="18" maxlength="19" placeholder="CURP: " required pattern="[A-Za-z0-9]+">
+  <label for="floatingPassword">CURP:</label>
+</div></div>
+
+     <div class="col-md-4">
+     <div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingIn" name="nombre" maxlength="30"  placeholder="Nombre(s): " required pattern="[A-Za-z- ]+">
+  <label for="floatingInput">Nombre(s):</label>
+</div></div>
+    
+
+    <div class="col-md-4">
+    <div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingPassword" name="apellidopaterno" maxlength="15" placeholder="Apellido Paterno: " required pattern="[A-Za-z- ]+">
+  <label for="floatingPassword">Apellido Paterno:</label>
+</div></div>
+
+   <div class="col-md-4">
+    <div class="form-floating">
+  <input type="text" class="form-control" id="floatingPassword" name="apellidomaterno" maxlength="15" placeholder="Apellido Materno: " required pattern="[A-Za-z- ]+">
+  <label for="floatingPassword">Apellido Materno:</label>
+</div><BR></div>
+
+   <div class="col-md-6">
+    <div class="form-floating">
+  <input type="text" class="form-control" id="floatingPassword" name="Calle" maxlength="15" placeholder="Calle: " required pattern="[A-Za-z- ]+">
+  <label for="floatingPassword">Calle:</label>
+</div><BR></div>
+
+   <div class="col-md-6">
+    <div class="form-floating">
+  <input type="text" class="form-control" id="floatingPassword" name="Colonia" maxlength="15" placeholder="Colonia: " required pattern="[A-Za-z- ]+">
+  <label for="floatingPassword">Colonia:</label>
+</div><BR></div>
+
+   <div class="col-md-4">
+    <div class="form-floating">
+  <input type="number" class="form-control" id="floatingPassword" name="Numext" maxlength="4" placeholder="Numero exterior: " required>
+  <label for="floatingPassword">Numero exterior:</label>
+</div><BR></div>
+
+   <div class="col-md-4">
+    <div class="form-floating">
+  <input type="number" class="form-control" id="floatingPassword" name="Numint" maxlength="4" placeholder="Numero interior: " required>
+  <label for="floatingPassword">Numero interior:</label>
+</div><BR></div>
+
+   <div class="col-md-4">
+    <div class="form-floating">
+  <input type="number" class="form-control" id="floatingPassword" name="CP" maxlength="5" placeholder="Codigo Postal: " required>
+  <label for="floatingPassword">Codigo Postal:</label>
+</div><BR></div>
+
+   <div class="col-md-20">
+    <div class="form-floating">
+  <input type="text" class="form-control" id="floatingPassword" name="RFC" maxlength="13" placeholder="RFC: " required pattern="[A-Za-z0-9]+">
+  <label for="floatingPassword">RFC:</label>
+</div><BR></div>
+</div>
+</form>
+<center>
+<button type="submit" class="btn btn-outline-dark">Enviar formulario</button>
+</center>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
