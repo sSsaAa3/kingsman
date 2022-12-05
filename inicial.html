@@ -1,0 +1,34 @@
+<html>
+<head><link rel="stylesheet" type="text/css" href="edpo.css"> </head>
+<body>
+   <font face="impact" size="2" color="black">
+    <script type="text/javascript" src="funcs_f.js">    
+    </script>
+     
+     <input type="button" value="SALUDOS ?" 
+          onclick ="muestraL();"
+           onmouseover="this.style.borderColor='black';" 
+           onmouseout="this.style.borderColor='silver';" />
+
+     <p> <label for="altu">Dime tu altura?</label>
+        <input type="text" name="altu" id="altu" required/>  </p>
+     <p> <label for="peso">Dime tu peso?</label>      
+        <input type="text" name="peso" id="peso" required/>  </p>
+
+        <input type="button" value="CALCULAR" onclick="imc();"
+           onmouseover="this.style.borderColor='black';" 
+           onmouseout="this.style.borderColor='silver';" />   
+ 
+        <p> Tu indice de masa corporal es: 
+        <label name="resu" id="resu"> - + - + - + - + - + - </label>   </p> 
+    </form>
+
+<input type="button" value= Regresar" 
+onclick ="location.href='index.html'"
+onmouseover="this.style.borderColor='black';" 
+onmouseout="this.style.borderColor='silver';" />
+</body>        
+</html>
+
+
+
