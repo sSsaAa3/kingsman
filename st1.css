@@ -1,0 +1,41 @@
+
+body {
+  height: 2000px;
+  background-image: url("fondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-left: 11px;
+  margin-right: 10px;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  height: 800px;
+}
+
+
+
+#header
+{
+ height: 37%;
+ background: #21618C;
+}
+#cuerpo {
+height: 700px;
+
+background-color: #616A6B;
+}
+ 
+
+ 
+#footer {
+height: 50px;
+
+background-color: #641E16;
+}
+
+table,td {
+	border: 1px solid black;
+}
+
+
